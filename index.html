@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ,
+    <link rel="stylesheet" href="style.css" />
+    <title>GST Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-head">GST Calculator</h1>
+      <hr class="hr" />
+      <div class="input">
+        <input type="number" placeholder="Enter Value" class="inputnum" />
+        <select name="gst" id="dropdown">
+          <option value="0" class="choose">GST Rate</option>
+          <option value="1" class="five">5%</option>
+          <option value="2" class="one-two">12%</option>
+          <option value="3" class="one-eight">18%</option>
+          <option value="4" class="two-eight">28%</option>
+        </select>
+        <button class="btn">Convert</button>
+      </div>
+      <span class="result bg-color"></span>
+      <span class="total"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
